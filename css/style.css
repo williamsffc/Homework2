@@ -4,3 +4,10 @@
     border-top-color: rgba(44, 58, 30, 0.75) !important;
 }
     
+.navbar-toggler {
+    border: 4px solid rgba(44, 58, 30, 0.75);
+}
+
+.navbar-toggler-icon.style {
+    background: radial-gradient(black, transparent);
+}
