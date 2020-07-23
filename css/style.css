@@ -77,9 +77,13 @@ h2 {
     }
 }
 
-@media screen and (max-width: 640px) {
-    
+@media screen and (max-width: 645px) {
+    p{
+        text-align: center;
+    }
+
     .col-about-me {
+    text-align: center;
     writing-mode: horizontal-tb !important;
     text-orientation: upright !important;
     display: block; 
