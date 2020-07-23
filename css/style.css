@@ -77,16 +77,12 @@ h2 {
 }
 
 @media screen and (max-width: 640px) {
-    /* .col-about-me {
-    -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
+    
+    .col-about-me {
     writing-mode: horizontal-tb !important;
     text-orientation: upright !important;
     display: block; 
-}*/
+    }
 }
    
 
