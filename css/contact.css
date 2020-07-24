@@ -2,17 +2,9 @@
   box-sizing: content-box;
 }
 
-* {
-  box-sizing: content-box;
-}
-
 body {
     background-color: #EFF6E0;
     color: #17a2b8;
-}
-
-.fixed-bottom {
-    border-top: 7px solid #17a2b8;
 }
 
 a {
@@ -20,22 +12,14 @@ a {
     font-weight: bold;
 }
 
-p {
-    word-spacing: 30 px;
-    line-height: 2;
-    margin: 0;
-}
 
-h2 {
-    font-size: 100px;
+h3 {
+    padding-left: 10%;;
+    padding-right: 10%;
 }
 
 .btn-lg {
     font-size: 1.8rem;
-}
-
-.navbar-light .navbar-nav .nav-link {
-    color: #17a2b8;
 }
 
 .fixed-bottom {
@@ -45,4 +29,10 @@ h2 {
 .no-gutters {
   margin-right: 0;
   margin-left: 0;
+}
+
+@media screen and (max-width: 645px) {
+    * {
+        box-sizing: border-box;
+    }
 }
