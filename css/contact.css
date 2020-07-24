@@ -22,6 +22,10 @@ h3 {
     font-size: 1.8rem;
 }
 
+.navbar-light .navbar-nav .nav-link {
+    color: #17a2b8;
+}
+
 .fixed-bottom {
     border-top: 7px solid #17a2b8;
 }
@@ -31,6 +35,7 @@ h3 {
   margin-left: 0;
 }
 
+/* For smaller screen */
 @media screen and (max-width: 645px) {
     * {
         box-sizing: border-box;

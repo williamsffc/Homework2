@@ -15,11 +15,16 @@ a {
 p {
     word-spacing: 30 px;
     line-height: 2;
-    margin: 0;
+    margin: 1.5em;
 }
 
 h2 {
     font-size: 100px;
+}
+
+.row {
+    margin-top: 5%;
+    margin-bottom: 8%;
 }
 
 .col-about-me {
@@ -29,11 +34,6 @@ h2 {
     align-items: center;
     writing-mode: vertical-lr;
     text-orientation: mixed;
-}
-
-.col-pic {
-    padding-top: 0 !important;
-    padding-bottom: 0 !important;
 }
 
 .btn-lg {
@@ -50,8 +50,7 @@ h2 {
 }
 
 .fixed-bottom {
-    border-top: 7px solid #17a2b8
-;
+    border-top: 7px solid #17a2b8;
 }
 
 .no-gutters {
@@ -59,24 +58,20 @@ h2 {
   margin-left: 0;
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 980xp) {
     .container {
         width: 100%;
+    }
+
+    .col-about-me {
+    text-align: center;
+    writing-mode: horizontal-tb !important;
+    text-orientation: upright !important;
+    display: block; 
     }
 }
 
 @media screen and (max-width: 768px) {
-    .container {
-        width: 100%;
-    }
-
-    .header-container,
-    .footer-container{
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 645px) {
     p{
         text-align: center;
     }
