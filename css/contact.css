@@ -5,11 +5,12 @@
 body {
     background-color: #EFF6E0;
     color: #17a2b8;
+    font-family: "Lato", sans-serif;
 }
 
 a {
-    color: black;
-    font-weight: bold;
+    font-weight:bolder;
+    font-size: 20px;
 }
 
 
@@ -27,16 +28,16 @@ h3 {
 }
 
 .fixed-bottom {
-    border-top: 7px solid #17a2b8;
+    border-top: 7px solid #839073;
 }
 
-.no-gutters {
+/* .no-gutters {
   margin-right: 0;
   margin-left: 0;
-}
+} */
 
-/* For smaller screen */
-@media screen and (max-width: 645px) {
+/* For smaller screen  */
+ @media screen and (max-width: 645px) {
     * {
         box-sizing: border-box;
     }

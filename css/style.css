@@ -3,86 +3,88 @@
 }
 
 body {
-    background-color: #EFF6E0;
-    color: #c8e9ee;
-}
-
-a {
-    color: black;
-    font-weight: bold;
+  background-color: #eff6e0;
+  font-family: "Lato", sans-serif;
 }
 
 p {
-    word-spacing: 30 px;
-    line-height: 2;
-    margin: 1.5em;
+  font-family: "Raleway", sans-serif;
+  color: #38555c;
+  text-align: center;
+  word-spacing: 30 px;
+  line-height: 2;
+  margin: 1em;
+}
+
+a {
+    font-weight:bolder;
+    font-size: 20px;
 }
 
 h2 {
-    font-size: 100px;
+  font-family: "Abril Fatface", cursive;
+  color: #5dbcd2;
+  font-size: 100px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
 }
 
 .row {
-    margin-top: 5%;
-    margin-bottom: 8%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .col-about-me {
-    display: flex;
-    /* below: stackoverflow.com */
-    justify-content: center;
-    align-items: center;
-    writing-mode: vertical-lr;
-    text-orientation: mixed;
+  display: flex;
+  /* below: stackoverflow.com */
+  justify-content: center;
+  align-items: center;
+  writing-mode: vertical-lr;
+  text-orientation: mixed;
 }
 
 .btn-lg {
-    font-size: 1.8rem;
+  font-size: 1.8rem;
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #17a2b8;
-}
-
-.img-fluid {
-    max-width: 100%;
-    height: 100%;
+  color: #17a2b8;
 }
 
 .fixed-bottom {
-    border-top: 7px solid #17a2b8;
-}
-
-.no-gutters {
-  margin-right: 0;
-  margin-left: 0;
+  border-top: 7px solid #839073;
 }
 
 @media screen and (max-width: 980xp) {
-    .container {
-        width: 100%;
-    }
+  .container {
+    width: 100%;
+  }
 
-    .col-about-me {
+  .col-about-me {
     text-align: center;
     writing-mode: horizontal-tb !important;
     text-orientation: upright !important;
-    display: block; 
-    }
+    display: block;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    p{
-        text-align: center;
-    }
+  .container {
+    width: 90%;
+  }
 
-    .col-about-me {
+  .col-about-me {
     text-align: center;
     writing-mode: horizontal-tb !important;
     text-orientation: upright !important;
-    display: block; 
-    }
+    display: block;
+  }
 }
-   
 
+.far {
+  color: #5dbcd2;
+}
 
+.navbar {
+  color: #5dbcd2;
+}

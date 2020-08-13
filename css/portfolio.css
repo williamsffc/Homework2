@@ -3,29 +3,33 @@
 }
 
 body {
-    background-color: #EFF6E0;
-    color: #17a2b8;
+  background-color: #eff6e0;
+  color: #17a2b8;
+  font-family: "Lato", sans-serif;
 }
 
 a {
-    color: black;
-    font-weight: bold;
+  font-weight: bolder;
+  font-size: 20px;
 }
 
 p {
-    word-spacing: 30 px;
-    line-height: 2;
-    margin: 0;
+    font-family: "Raleway", sans-serif;
+  word-spacing: 30 px;
+  line-height: 2;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  color: #38555c;
 }
 
 .btn-lg {
-    font-size: 1.8rem;
+  font-size: 1.8rem;
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #17a2b8;
+  color: #17a2b8;
 }
 
 .fixed-bottom {
-    border-top: 7px solid #17a2b8;
+  border-top: 7px solid #839073;
 }
