@@ -22,10 +22,10 @@ img:hover {
 }
 
 .showcase::after {
-  content: "";
+  /* content: ""; */
   height: 100vh;
   width: 100%;
-  background-image: url(/assets/background2.jpg);
+  background-image: url("/assets/background2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

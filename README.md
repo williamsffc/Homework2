@@ -1,16 +1,25 @@
-# homework2
-Portfolio
+# README - Porfolio
 
-Hello, this is my portfolio. Inside, you will find a brief info content about me, along with my picture.
+**Version 2.0.0**
 
-There is also a contact page; where users can fill it out and provide me with contact information.
+Updated Portfolio
 
-Also, there is a portfolio page where you will find pictures, essays, ideas and resources (from me, by me, about me)
+----
 
-This portfolio is not finished. I have to continue improving it. 
+This updated project will give you a glance of my progress in the Boot-Camp. I am proud of what I have accomplished so far. I am learning some cool new stuff every single day.
 
-Wish me luck!
+---
 
-Thanks,
+Link: https://williamsffc.github.io/Portfolio/
 
-WF - 2020
+---
+
+Screenshot of the project.
+
+<img src="ReadMe-pics/main.JPG">
+<img src="ReadMe-pics/portfolio.JPG">
+<img src="ReadMe-pics/contact.JPG">
+
+##  License & Copyright
+
+© Williams F Flores - 2020
